@@ -775,10 +775,6 @@
     padding-top: 36px;
 }
 
-.category{
-    /* background-color: var(--white-color); */
-    /* border-radius: 2px; */
-}
 
 .category__heading {
     font-size: 20xp;
@@ -850,9 +846,7 @@
     color: var(--primary-color);
 }
 
-.category__filter {
 
-}
 
 .category__filter-head {
     font-size: 16px;
