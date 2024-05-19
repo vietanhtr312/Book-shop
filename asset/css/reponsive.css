@@ -54,6 +54,15 @@
     .slider_wrap {
         padding-top: calc( var(--header-height) + var(--header-sort-bar-height) + 36px);
     }
+    
+    .product {
+        padding-top: calc( var(--header-height) + var(--header-sort-bar-height));
+    }
+
+    .product-content-right {
+        margin-top: 10px;
+        padding-left: 0;
+    }
 }
 
 /* Tablet */

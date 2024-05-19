@@ -1557,3 +1557,268 @@
     width: 30px;
 }
 
+
+/* Product */
+.product {
+    background-color: #f5f5f5;
+}
+
+.product-top {
+    padding: 15px 8px;
+    display: flex;
+}
+
+.product-top p {
+    margin: 0 12px;
+    font-size: 14px;
+}
+
+.product-top i {
+    padding-top: 5px;
+    font-size: 12px;
+}
+
+.product-content {
+    background-color: var(--white-color);
+    padding: 16px 16px 0;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+.product-content-left {
+    display: flex;
+}   
+
+.product-content-left-big-img {
+    width: 80%;
+
+}
+
+.product-content-left-big-img img {
+    width: 100%;
+}
+
+.product-content-left-small-img{
+    width: 20%;
+    padding-left: 6px;
+}
+
+.product-content-left-small-img img{
+    width: 100%;
+}   
+
+.product-content-left-small-img img:hover {
+    cursor: pointer;
+    border: 2px solid var(--primary-color);
+}
+
+.product-content-right {
+    padding-left: 28px;
+}
+
+.product-name h1{
+    font-size: 20px;
+    color: var(--text-color);
+    margin: 0;
+}
+
+.product-name p {
+    font-size: 15px;
+    color: var(--text-color);
+    margin: 0;
+    padding-top: 8px;
+    padding-bottom: 10px;
+}
+
+.product-price {
+    align-items: baseline;
+    flex-wrap: wrap;
+    display: flex;
+    background-color: #f5f5f5;
+}
+
+.product-price-old {
+    font-size: 14px;
+    color: #817d7d;
+    text-decoration: line-through;
+    margin-left: 10px;
+}
+
+.product-price-current {
+    font-size: 28px;
+    font-weight: 400;
+    color: var(--primary-color);
+    padding-left: 12px;
+}
+
+.product-price_sale {
+    background-color: var(--primary-color);
+    font-weight: 600;
+    font-size: 12px;
+    color: var(--white-color);
+    line-height: 18px;
+    padding: 0 6px;
+    border-radius: 2px;
+    margin: auto 20px;
+}
+
+.product-chapter {
+    display: flex;
+}
+
+.product-chapter .chapter {
+    margin-left: 36px;
+}
+
+.product-chapter span{
+    display: inline-block;
+    padding: 3px 6px;
+    border: 1px solid #ddd;
+    margin: 12px 10px 12px 0;
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.product-quantity {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.product-quantity input {
+    width: 100px;
+    height: 30px;
+    padding-left: 8px;
+    display: block;
+    margin: auto 6px;
+}
+
+
+.product-button {
+    display: flex;
+}
+
+.product-btn {
+    min-width: 120px;
+    height: 50px;
+    text-decoration: none;
+    border: none;
+    border-radius: 2px;
+    padding: 0 20px;
+    display: inline-flex;
+    line-height: 16px;
+    align-items: center;
+    justify-content: center;
+    color: #d02626;
+    background-color: #f4e0e0;
+    border: 1px solid #c94646;
+    margin-right: 30px;
+}
+
+.product-btn i {
+    padding-bottom: 4px;
+    padding-right: 10px;
+    font-size: 14px;
+}
+
+.product-icon {
+    display: flex;
+}
+
+.product-icon_item {
+    display: flex;
+    margin-right: 12px;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-icon_item i {
+    font-size: 12px;
+    margin-right: 6px;
+}
+
+.product-info{
+    position: relative;
+    padding-top: 36px;
+    border-top: 1px solid #ddd;
+    user-select: none;
+}
+
+.product-info_top {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    top: -15px;
+    left: 49%;
+    transform: translateX(-50%);
+    cursor: pointer;
+}
+
+.product-info-detail-title {
+    border-bottom: 2px solid #ddd;
+    display: flex;
+}
+
+.product-info-detail-item:hover {
+    background-color: #c0b9b9;
+}
+
+.product-info-detail-item {
+    padding: 6px 30px;
+    cursor: pointer;
+}   
+
+.product-info-detail-item p {
+    margin: 0;
+}
+
+.product-info-detail-content {
+    padding-top: 20px;
+}
+
+.product-info-detail-content p {
+    font-size: 14px;
+}
+
+.product-info-detail-content-chitiet p{
+    margin: 8px 0;
+}
+.product-info-detail-content-chitiet span {
+    color:#737373
+}
+
+.product-info-detail-content-mota {
+    display: none;
+}
+
+.active {
+    display: none;
+}
+
+
+/* Product relate */
+
+.product-relate {
+    padding: 30px 0;
+    background-color: #f5f5f5;
+}
+
+.product-relate_title h3{
+    color: #666;
+    margin: 0;
+}
+
+.product-relate_item {
+    text-align: center;
+}
+
+.product-relate_item img {
+    width: 100%;
+}
+
