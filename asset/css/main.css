@@ -1928,7 +1928,6 @@
     border-right: 2px solid #ddd;   
 }
 
-
 .cartpage-content-left {
     margin-left: 0;
 }
@@ -1950,7 +1949,6 @@
 .cartpage-content-left table td {
     padding: 20px 0;
     border-bottom: 2px solid #ddd;
-
 }
 
 .cartpage-content-left table img {
@@ -2059,6 +2057,117 @@
 .cartpage-content-right-login p {
     margin: 4px;
 }
+
+/* Delivery */
+
+.delivery {
+    background-color: #f5f5f5;
+    padding: 20px 0;
+}
+
+.delivery-content {
+    background-color: var(--white-color);
+    padding: 20px 8px;
+}   
+
+.delivery-content-left {
+    border-right: 2px solid #ddd;
+    padding-right: 16px;
+}
+
+.delivery-content-left span {
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.delivery-content-left p {
+    margin: 8px 0;
+}
+
+.delivery-content-left_top div {
+    display: flex;
+}
+
+
+.delivery-content-left-signin i{
+    line-height: 40px;
+}
+
+.delivery-content-left-input {
+    margin-top: 20px;
+}
+
+.delivery-content-left-input_item {
+    margin: 8px 0;
+}
+
+.delivery-content-left-input_item input {
+    width: 100%;
+    height: 30px;
+}
+
+.delivery-content-left-input-button {
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
+}
+
+.delivery-content-left-input-button a {
+    text-decoration: none;
+    color: var(--primary-color);
+    margin-top: -30px;
+}
+
+.delivery-content-left-input-button button {
+    height: 32px;
+    background-color: #f4e0e0;
+    border: 2px solid #c94646;
+    cursor: pointer;
+    padding: 6px 18px;
+}
+
+.delivery-content-right table {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+
+.delivery-content-right table tr th:first-child {
+    text-align: left;
+    width: 250px;
+}
+
+.delivery-content-right table tr th:nth-child(2), th:nth-child(3) {
+    min-width: 60px;
+}
+
+.delivery-content-right table tr th:last-child {
+    text-align: right;
+}
+
+.delivery-content-right table tr th {
+    padding-bottom: 12px ;
+    border-bottom: 2px solid #ddd;
+}
+
+.delivery-content-right table tr td p{
+    margin: 14px;
+}
+
+.delivery-content-right table tr:nth-child(4) {
+    border-top: 2px solid #ddd;
+}
+
+.delivery-content-right table tr td:first-child {
+    text-align: left;
+}
+
+.delivery-content-right table tr td:last-child {
+    text-align: right;
+}
+
+
+
 
 
 
