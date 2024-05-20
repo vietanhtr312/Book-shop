@@ -1822,3 +1822,243 @@
     width: 100%;
 }
 
+
+/* Cart Page */
+
+.cartpage_header {
+    height: 48px;
+}
+
+.cartpage_nav2-wrap {
+    height: 100px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cartpage_logo {
+    display: flex;
+    flex: 1;
+}
+
+.cartpage_logo svg {
+    width: 150px;
+    fill: var(--primary-color);
+}
+
+.cartpage_logo a {
+    position: relative;
+}
+
+.cartpage_logo a::after {
+    content: "";
+    position: absolute;
+    height: 28px;
+    border: 0.1px solid var(--primary-color);
+    right: -20px;
+    top: 18px;
+}
+
+.cartpage-logo__page-name {
+    font-size: 18px;
+    margin: 24px 36px 0;
+    color: var(--primary-color);
+}
+
+.cartpage_search input{
+    border: 2px solid var(--primary-color);
+    line-height: 28px;
+}
+
+.cartpage {
+    background-color: #f5f5f5;
+    padding: 20px 0;
+}
+
+.cartpage-top_wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: var(--white-color);
+    margin-bottom: 20px;
+}
+
+.cartpage-top {
+    height: 2px;
+    width: 70%;
+    background-color: #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 70px auto 70px;
+    
+}
+
+.cartpage-top_item {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:var(--white-color);
+}
+
+.cartpage-top_item i {
+    font-size: 20px;
+    color: #ddd;
+}
+
+.cartpage-top_item.current{
+    border: 1px solid var(--primary-color);
+}
+
+.cartpage-top_item.current i {
+    color: var(--primary-color);
+}
+
+.cartpage-content {
+    background-color: var(--white-color);
+    padding: 20px 0;
+}
+
+.cartpage-content-col {
+    border-right: 2px solid #ddd;   
+}
+
+
+.cartpage-content-left {
+    margin-left: 0;
+}
+
+.cartpage-content-left table {
+    width: 100%;
+    text-align: center;
+}
+
+.cartpage-content-left table th {
+    padding-bottom: 30px;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #333;
+    border-collapse: collapse;
+    border-bottom: 2px solid #ddd;
+}
+
+.cartpage-content-left table td {
+    padding: 20px 0;
+    border-bottom: 2px solid #ddd;
+
+}
+
+.cartpage-content-left table img {
+    width: 130px;
+}
+
+.cartpage-content-left table td:nth-child(2),td:nth-child(3) {
+    max-width: 130px;
+    padding: 0 16px;
+}
+
+.cartpage-content-left table p {
+    font-size: 14px;
+    color: var(--text-color);
+}
+
+.cartpage-content-left table input {
+    width: 30px;
+}
+
+.cartpage-content-left table span {
+    display: block;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    padding: 0 16px;
+}
+
+.cartpage-content-left table span:hover {
+    color: var(--primary-color);
+}
+
+.cartpage-content-right table{
+    width: 100%;
+}
+
+.cartpage-content-right table th {
+    padding-bottom: 30px;
+    font-size: 14px;
+    color: var(--text-color);
+    border-collapse: collapse;
+    border-bottom: 2px solid #ddd;
+}
+
+.cartpage-content-right table td {
+    font-size: 14px;
+    color: var(--text-color);
+    padding: 6px 0;
+
+}
+
+.cartpage-content-right tr:nth-child(4) td {
+    border-bottom: 2px solid #ddd;
+}
+
+.cartpage-content-right tr td:nth-child(2) {
+    text-align: center;
+}
+
+.cartpage-content-right-text {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.cartpage-content-right-text p {
+    margin: 4px;
+}
+
+
+.cartpage-content-right-button {
+    text-align: center;
+    align-items: center;
+
+}
+
+.cartpage-content-right-button button {
+    padding: 0 18px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.cartpage-content-right-button button:first-child {
+    background-color: var(--white-color);
+    border: 1px solid var(--black-color);
+    margin-right: 20px;
+}
+
+.cartpage-content-right-button button:first-child:hover {
+    background-color: #ddd;
+}
+
+.cartpage-content-right-button button:last-child {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    border: none;
+}
+
+.cartpage-content-right-button button:last-child:hover {
+    background-color: #aa0e0e;
+}
+
+.cartpage-content-right-login {
+    margin-top: 30px;
+}
+
+.cartpage-content-right-login p {
+    margin: 4px;
+}
+
+
+
