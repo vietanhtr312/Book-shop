@@ -1591,21 +1591,16 @@
 
 .product-content-left-big-img {
     width: 80%;
-
-}
-
-.product-content-left-big-img img {
-    width: 100%;
 }
 
 .product-content-left-small-img{
     width: 20%;
     padding-left: 6px;
-}
+} 
 
-.product-content-left-small-img img{
+.product-content-left-big-img img, .product-content-left-small-img img {
     width: 100%;
-}   
+}
 
 .product-content-left-small-img img:hover {
     cursor: pointer;
@@ -1793,11 +1788,7 @@
     color:#737373
 }
 
-.product-info-detail-content-mota {
-    display: none;
-}
-
-.active {
+.product-info-detail-content-mota, .active {
     display: none;
 }
 
@@ -1892,7 +1883,6 @@
     justify-content: space-between;
     align-items: center;
     margin: 70px auto 70px;
-    
 }
 
 .cartpage-top_item {
@@ -1955,7 +1945,7 @@
     width: 130px;
 }
 
-.cartpage-content-left table td:nth-child(2),td:nth-child(3) {
+.cartpage-content-left table td:nth-child(2), .cartpage-content-left table td:nth-child(3) {
     max-width: 130px;
     padding: 0 16px;
 }
@@ -1997,7 +1987,6 @@
     font-size: 14px;
     color: var(--text-color);
     padding: 6px 0;
-
 }
 
 .cartpage-content-right tr:nth-child(4) td {
@@ -2017,11 +2006,9 @@
     margin: 4px;
 }
 
-
 .cartpage-content-right-button {
     text-align: center;
     align-items: center;
-
 }
 
 .cartpage-content-right-button button {
@@ -2087,7 +2074,6 @@
 .delivery-content-left_top div {
     display: flex;
 }
-
 
 .delivery-content-left-signin i{
     line-height: 40px;
@@ -2164,6 +2150,135 @@
 
 .delivery-content-right table tr td:last-child {
     text-align: right;
+}
+
+/* Payment */
+
+.payment {
+    background-color: #f5f5f5;
+    padding: 20px 0;
+}
+
+.payment-content {
+    background-color: var(--white-color);
+    padding: 20px 8px;
+}   
+
+.payment-content-left {
+    border-right: 2px solid #ddd;
+    padding-right: 16px;
+}
+
+.payment-content-left h3 {
+    margin: 12px 0;
+}
+
+.payment-content-left label {
+    padding: 4px 0;
+}
+
+.payment-content-left span {
+    font-size: 13px;
+}
+
+.payment-conten-left-method_payment-item {
+    padding: 6px 0;
+}
+
+.payment-conten-left-method_payment-item img {
+    display: block;
+}
+
+.payment-content-right-button {
+    display: flex;
+    padding: 12px 0;
+    border-bottom: 1px dashed #ddd;
+}
+
+.payment-content-right-button input {
+    height: 30px;
+    width: 250px;
+    margin-right: 100px;
+    padding-left: 12px;
+    border: 1px solid #ddd;
+}
+
+.payment-content-right-button button {
+    height: 30px;
+    width: 80px;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.payment-content-right-mnv {
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed #ddd; 
+}
+
+.payment-content-right-mnv select {
+    height: 34px;
+    width: 100%;
+    color: #75758a;
+    padding: 4px 10px;
+}
+
+.payment-content-right table{
+    margin-top: 12px;
+    width: 100%;
+}
+
+.payment-content-right table tr th, .payment-content-right table tr td,
+.payment-content-right table tr.payment-content-right-product_last td{
+    padding: 4px 0;
+    border-bottom: 2px solid #ddd;
+}
+
+.payment-content-right table tr:last-child td, .payment-content-right table tr.payment-content-right-product td {
+    border-bottom: none;
+}
+
+.payment-content-right table tr td:nth-child(3) {
+    text-align: center;
+}
+
+.payment-content-right table tr td:last-child {
+    text-align: right;
+}
+
+.payment-content-bottom {
+    margin-top: 20px;
+    width: 100%;
+    padding-left: 12px;
+}
+
+.payment-content-bottom-return a{
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.payment-content-bottom-button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.payment-content-bottom button {
+    height: 35px;
+    padding: 0 20px;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--white-color);
+    background-color: var(--primary-color);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: none;
+}
+
+.payment-content-bottom button:hover {
+    background-color: #c72201;
 }
 
 
