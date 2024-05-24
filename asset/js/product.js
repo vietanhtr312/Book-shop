@@ -10,27 +10,29 @@ smallImg.forEach(function(imgItem, X) {
 
 
 
-const chitiet = document.querySelector('.chitiet');
-const mota = document.querySelector('.mota');
+const $ = document.querySelector.bind(document);
+const $$ = document.querySelectorAll.bind(document);
 
+const tabs = $$('.product-info-tab-item');
+const panes = $$('.product-info-tab-pane');
 
-if(chitiet) {
-    chitiet.addEventListener('click', function() {
-        document.querySelector('.product-info-detail-content-chitiet').style.display = 'block';
-        document.querySelector('.product-info-detail-content-mota').style.display = 'none';
-    })
-}
+const tabActive = $('.product-info-tab-item.active');
+const line = $('.product-info-line');
 
-if(mota) {
-    mota.addEventListener('click', function() {
-        document.querySelector('.product-info-detail-content-chitiet').style.display = 'none';
-        document.querySelector('.product-info-detail-content-mota').style.display = 'block';
-    })
-}
+line.style.left = tabActive.offsetLeft + 'px';
+line.style.width = tabActive.offsetWidth + 'px';
 
-const button = document.querySelector('.product-info_top');
-if(button) {
-    button.addEventListener('click', function() {
-        document.querySelector('.product-info-detail').classList.toggle('active');
-    })
-}
+tabs.forEach((tab, index) =>{
+    const pane = panes[index];
+
+    tab.onclick = function () {
+        $('.product-info-tab-item.active').classList.remove('active');
+        $('.product-info-tab-pane.active').classList.remove('active');
+
+        line.style.left = this.offsetLeft + 'px';
+        line.style.width = this.offsetWidth + 'px';    
+
+        this.classList.add('active');
+        pane.classList.add('active');
+    }
+})
